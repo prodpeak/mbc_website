@@ -1,5 +1,5 @@
 import React from 'react'
-import rolly3 from '../assets/rolly3.png'
+import rolly3 from '../assets/rolly3.webp'
 
 function Marquee3() {
     return (
