@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import mutant4 from '../assets/mutant4.png'
-import mutant5 from '../assets/mutant5.png'
-import mutant1 from '../assets/mutant1.png'
-import mutant2 from '../assets/mutant2.png'
-import mutant3 from '../assets/mutant3.png'
-
+import mutant1 from '../assets/mutant1.webp'
+import mutant2 from '../assets/mutant2.webp'
+import mutant3 from '../assets/mutant3.webp'
+import mutant4 from '../assets/mutant4.webp'
+import mutant5 from '../assets/mutant5.webp'
 
 function Mutantboosterpart() {
     // Add state for selected image
