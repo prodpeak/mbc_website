@@ -1,6 +1,6 @@
 import React from 'react'
-import coinflipbot from '../assets/coinflipbot.png'
-import mbcvs from '../assets/mbcvs.jpg'
+import coinflipbot from '../assets/coinflipbot.webp'
+import mbcvs from '../assets/mbcvs.webp'
 
 import pyrate1 from '../assets/pyrate1.jpg'
 import pyrate2 from '../assets/pyrate2.jpg'
@@ -31,7 +31,6 @@ function Firstvid() {
                 <div className="row1 flex flex-row justify-center items-center ">
                     <video
                         src={mbcvideo11}
-                        alt="mbcvideo1"
                         muted
                         autoPlay
                         loop
@@ -61,7 +60,6 @@ function Firstvid() {
                     </div>
                     <video
                         src={gmevideo2}
-                        alt="gmevideo2"
                         muted
                         autoPlay
                         loop
@@ -72,7 +70,6 @@ function Firstvid() {
                     />
                     <video
                         src={gmevideo1}
-                        alt="gmevideo1"
                         muted
                         autoPlay
                         loop
@@ -83,7 +80,6 @@ function Firstvid() {
                     />
                     <video
                         src={gmevideo3}
-                        alt="gmevideo3"
                         muted
                         autoPlay
                         loop
@@ -101,7 +97,6 @@ function Firstvid() {
                     </div>
                     <video
                         src={hodivideo2}
-                        alt="hodivideo2"
                         muted
                         autoPlay
                         loop
@@ -113,7 +108,6 @@ function Firstvid() {
                     <img src={hodi2} alt="hodi2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                     <video
                         src={hodivideo}
-                        alt="hodivideo"
                         muted
                         autoPlay
                         loop
