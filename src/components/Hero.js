@@ -1,6 +1,6 @@
 import React from 'react'
 import mutantboosterbtn from '../assets/mutantboosterbtn.webp'
-import buymbc from '../assets/buymbc.png'
+import buymbc from '../assets/buymbc.webp'
 import part1 from '../assets/part1.png'
 import heropic from '../assets/heropic.webp'
 import Mutantboosterpart from './Mutantboosterpart'
