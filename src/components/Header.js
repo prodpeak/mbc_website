@@ -1,5 +1,5 @@
 import React from 'react'
-import mutantboosterbtn from '../assets/mutantboosterbtn.png'
+import mutantboosterbtn from '../assets/mutantboosterbtn.webp'
 import toplogo from '../assets/toplogo.png'
 import jointelegram from '../assets/jointelegram.png'
 
