@@ -7,7 +7,7 @@ import Mutantboosterpart from './Mutantboosterpart'
 
 function Hero() {
     return (
-        <div className='flex flex-col justify-center items-center px-0'>
+        <div className='flex flex-col justify-center items-center px-0 pt-16'>
             <h1 className='text-center text-white lg:text-6xl text-5xl mb-5 mt-10 px-4'>Welcome to <br />
                 Mutant Boys Club</h1>
             <img src={heropic} alt="heropic" className='w-12/12   rounded-xl ' />
