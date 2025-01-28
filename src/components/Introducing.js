@@ -1,8 +1,8 @@
 import React from 'react'
-import mockup from '../assets/mockup.png'
-import mutbost from '../assets/mutbost.png'
-import mutantboosterbtn from '../assets/mutantboosterbtn.png'
-import buymbc from '../assets/buymbc.png'
+import mockup from '../assets/mockup.webp'
+import mutbost from '../assets/mutbost.webp'
+import mutantboosterbtn from '../assets/mutantboosterbtn.webp'
+import buymbc from '../assets/buymbc.webp'
 
 function Introducing() {
     return (
