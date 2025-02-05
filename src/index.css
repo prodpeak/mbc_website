@@ -163,3 +163,53 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+.btn {
+  @apply py-4 px-8 rounded-lg min-w-36 text-center font-black;
+}
+.btn-primary {
+  @apply bg-slime-500 text-gray-950;
+}
+.btn-primary:hover {
+  @apply bg-slime-600 text-gray-900;
+}
+.btn-secondary {
+  @apply border border-slime-500 text-gray-200;
+}
+.btn-secondary:hover {
+  @apply border-slime-700;
+}
+.btn-tertiary {
+  @apply bg-gray-200 text-gray-800;
+}
+.btn-tertiary:hover {
+  @apply border-slime-700;
+}
+.btn-dark {
+  @apply bg-slime-black text-gray-200;
+}
+.btn-secondary:hover {
+  @apply border-slime-700;
+}
+
+.btn-telegram {
+  background-color: #52A7E4;
+}
+
+.btn-telegram:hover {
+  background-color: #4998d1;
+}
+
+ul.roadmap {
+  @apply text-gray-200 list-disc space-y-1;
+  li {
+    @apply font-black;
+
+    ol {
+      li {
+        @apply font-normal py-0;
+      }
+    }
+  }
+}

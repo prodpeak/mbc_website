@@ -8,13 +8,10 @@ import Birddog from './Birddog'
 function Parts() {
     return (
         <div className='flex flex-col'>
-
             <Landwolf />
             <Brett />
             <Pepe />
-
             <Andy />
-
             <Birddog />
         </div>
     )

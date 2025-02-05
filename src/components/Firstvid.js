@@ -1,5 +1,4 @@
 import React from 'react'
-import coinflipbot from '../assets/coinflipbot.webp'
 import mbcvs from '../assets/mbcvs.webp'
 
 import pyrate1 from '../assets/pyrate1.jpg'
@@ -19,6 +18,7 @@ import hodivideo2 from '../assets/hodivideo2.mp4'
 import kolt1 from '../assets/kolt1.jpg'
 import kolt2 from '../assets/kolt2.jpg'
 import kolt3 from '../assets/kolt3.jpg'
+import {CoinFlipButton} from "../buttons/CoinFlipButton";
 
 function Firstvid() {
     return (
@@ -127,18 +127,9 @@ function Firstvid() {
                     <img src={kolt2} alt="kolt2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                     <img src={kolt3} alt="kolt3" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                 </div>
-
-
-
-
             </div>
 
-
-
-
-            <a href="https://t.me/MutantCoinFlipBot?start=new" target="_blank" rel="noopener noreferrer">
-                <img src={coinflipbot} alt="coinflipbot" className='w-40' />
-            </a>
+            <CoinFlipButton />
         </div>
     )
 }

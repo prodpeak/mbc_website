@@ -26,25 +26,42 @@ function Mutantboosterpart() {
         }
     };
 
+    const getClassName = (image) => {
+        if (selectedImage ===  image) {
+            return "cursor-pointer hover:text-white text-white text-[10px] lg:text-xl";
+        }
+        return "cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-xl";
+    }
+
     return (
         <div className='flex flex-row justify-center items-center text-white border-2s px-1'>
-            <div className="mr-2 vertical-leftside relative h-40 lg:h-96 w-2   rounded-full bg-green-400/20">
+            <div className="mr-2 vertical-leftside relative h-40 lg:h-96 w-2 rounded-full bg-slime-950/20">
                 <div
-                    className="absolute rounded-full w-full bg-green-400 transition-all duration-300 ease-in-out lg:h-20 h-10"
+                    className="absolute rounded-full w-full bg-slime-700 transition-all duration-300 ease-in-out lg:h-20 h-10"
                     style={{ bottom: `${100 - progress}%` }}
                 ></div>
             </div>
 
-            <div className="middleside lg:w-[70%] w-[80%] pr-3">
+            <div className="middleside lg:w-[70%] w-[80%] pr-3 px-20">
                 <img src={selectedImage} alt="mutant" className=' dw-10/12' />
             </div>
 
-            <div className="rightside flex flex-col justify-start items-start gap-2 text-gray-500">
-                <div onClick={() => handlePartClick(mutant1)} className="cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-lg">Login</div>
-                <div onClick={() => handlePartClick(mutant2)} className="cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-lg">Add New Project</div>
-                <div onClick={() => handlePartClick(mutant3)} className="cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-lg">Select Service</div>
-                <div onClick={() => handlePartClick(mutant4)} className="cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-lg">Boost Project</div>
-                <div onClick={() => handlePartClick(mutant5)} className="cursor-pointer hover:text-gray-300 active:text-white text-[10px] lg:text-lg">My Projects</div>
+            <div className="rightside flex flex-col justify-start items-start gap-8 pl-12 mb-28 text-gray-500">
+                <div onClick={() => handlePartClick(mutant1)}
+                     className={getClassName(mutant1)}
+                >Login</div>
+                <div onClick={() => handlePartClick(mutant2)}
+                     className={getClassName(mutant2)}
+                >Add New Project</div>
+                <div onClick={() => handlePartClick(mutant3)}
+                     className={getClassName(mutant3)}
+                >Select Service</div>
+                <div onClick={() => handlePartClick(mutant4)}
+                     className={getClassName(mutant4)}
+                >Boost Project</div>
+                <div onClick={() => handlePartClick(mutant5)}
+                     className={getClassName(mutant5)}
+                >My Projects</div>
             </div>
         </div>
     )
