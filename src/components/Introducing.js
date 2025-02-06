@@ -1,25 +1,25 @@
 import React from 'react'
 import mockup from '../assets/mockup.webp'
-import mutbost from '../assets/mutbost.webp'
 import {BoosterButton} from "../buttons/BoosterButton";
 import {BuyButton} from "../buttons/BuyButton";
 import Mutantboosterpart from "./Mutantboosterpart";
-import part1 from '../assets/part1.png'
 import {IconShield} from "../icons/IconSheild";
 
 function Introducing() {
     return (
         <div>
             <div className='flex lg:flex-row flex-col justify-center px-4 lg:pt-20'>
-                <div className="left lg:w-3/5">
+                <div className="left hidden lg:block lg:w-3/5">
                     <img src={mockup} alt="mockup" className='w-full pt-0 pr-28 pl-24'/>
                 </div>
 
-                <div className="right lg:w-2/5 flex flex-col justify-start lg:items-start gap-10 pr-10">
-                    <span>
-                        <h2 className='text-white lg:text-5xl text-5xl mb-5 mt-5'>Introducing</h2>
-                        <img src={mutbost} alt="mutbost" className='w-full lg:w-8/12'/>
-                    </span>
+                <div className="right lg:w-2/5 flex flex-col justify-start lg:items-start gap-4 lg:gap-10 lg:pr-10">
+                    <h2 className='text-gray-200 text-center lg:text-left'>
+                        <div className="text-5xl lg:text-5xl pb-2">Introducing</div>
+                        <span className="title text-4xl  lg:text-6xl">
+                            <span className="text-slime-700">Mutant</span> Booster
+                        </span>
+                    </h2>
 
                     <span className='flex flex-col text-lg text-white gap-4'>
                         <p>
@@ -33,7 +33,7 @@ function Introducing() {
                         </p>
                     </span>
 
-                    <div className="btns w-full flex justify-center items-center lg:justify-normal lg:flex-row gap-5  ">
+                    <div className="btns w-full flex justify-center items-center lg:justify-normal lg:flex-row gap-5 pt-4">
                         <BuyButton/>
                         <BoosterButton/>
                     </div>
@@ -41,11 +41,11 @@ function Introducing() {
             </div>
 
 
-            <div className="booster flex justify-center items-center m-20 w-full mt-48">
+            <div className="booster hidden lg:flex justify-center items-center m-20 w-full mt-48">
                 <Mutantboosterpart/>
             </div>
 
-            <div className="three flex flex-col lg:flex-row justify-between items-center lg:w-[70%] w-[80%] mb-5 pl-20 pr-4 text-lg mx-auto">
+            <div className="three hidden lg:flex flex-col lg:flex-row justify-between items-center lg:w-[70%] w-[80%] mb-5 pl-20 pr-4 text-lg mx-auto">
                 <div className="flex items-center space-x-2">
                     <div><IconShield /></div>
                     <p className="text-gray-200">

@@ -1,23 +1,23 @@
 import Hero from './components/Hero'
 import Introducing from './components/Introducing'
 import Roll from './components/Roll'
-import Comingsoon from './components/Comingsoon'
+import ComingSoon from './components/ComingSoon'
 import Waitlist from './components/Waitlist'
-import Parts from './components/Parts'
+import Roadmap from './components/Roadmap'
 import Header from './components/Header'
 import Firstvid from './components/Firstvid'
 
 function App() {
   return (
-    <div className="App overflow-x-clip d">
+    <div className="App overflow-x-clip">
       <Header />
       <Hero />
       <Introducing />
       <Firstvid />
       <Roll />
-      <Comingsoon />
+      <ComingSoon />
       <Waitlist />
-      <Parts />
+      <Roadmap />
     </div>
   );
 }

@@ -1,13 +1,12 @@
 import React from 'react'
-import mintcomingsoon from '../assets/mintcomingsoon.png'
 import Marquee1 from './Marquee1'
 import Marquee2 from './Marquee2'
 import Marquee3 from './Marquee3'
 
-function Comingsoon() {
+const ComingSoon = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
-            <img src={mintcomingsoon} alt="mintcomingsoon" className='w-8/12 my-5' />
+            <h1 className="title text-gray-200 text-4xl lg:text-8xl my-5">NFT Mint coming soon</h1>
             <Marquee1 />
             <Marquee2 />
             <Marquee3 />
@@ -16,4 +15,4 @@ function Comingsoon() {
     )
 }
 
-export default Comingsoon
+export default ComingSoon;

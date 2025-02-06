@@ -1,18 +1,18 @@
 import React from 'react'
-import landwolf from '../assets/landwolf.gif'
-import landwolftext from '../assets/landwolftext.png'
+import landwolf from '../../assets/landwolf.gif'
 
 function Landwolf() {
     return (
-        <div className='flex lg:flex-row flex-col justify-center items-center landwolfbg px-4 py-5 lg:py-0'>
+        <div className='flex lg:flex-row flex-col-reverse justify-center landwolfbg px-4 lg:py-0'>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
                 <img src={landwolf} alt="landwolf" className='w-12/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0'/>
             </div>
 
-            <div className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:pr-20 lg:pl-10">
-                <div className="border border-gray-200 rounded-lg px-10 py-4 bg-gray-200 bg-opacity-20 m-10 w-full">
-                    <img src={landwolftext} alt="landwolftext" className='w-80'/>
+            <div className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:mt-10 lg:pr-20">
+                <div className="border border-gray-200 rounded-lg px-6 py-4 bg-gray-200 bg-opacity-20 m-10 w-full">
+                    <h1 className="title text-gray-200 text-3xl">Q1 - 2025</h1>
+
                     <ul className="roadmap">
                         <li>Community Growth - 1000 TG Members</li>
                         <li>Gain Engagement on Socials</li>
@@ -34,9 +34,9 @@ function Landwolf() {
                         <li>Engage KOLs & Influencers to build pre-mint hype</li>
                         <li>1st NFT Mint Goes Live
                             <ol>
-                                <li>888 Brett Limited piece </li>
-                                <li>1 Gold 1 of 1 </li>
-                                <li>1 OG 1 of 1 </li>
+                                <li>888 Brett Limited piece</li>
+                                <li>1 Gold 1 of 1</li>
+                                <li>1 OG 1 of 1</li>
                             </ol>
                         </li>
                         <li>Ensure secondary market support &amp; trading incentives</li>

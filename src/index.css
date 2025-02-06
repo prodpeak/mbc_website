@@ -4,12 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Monstarize";
+  src: url("/public/fonts/monstarize.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: black;
   background-image: url(./assets/bgmbc.png);
   background-size: contain;
   background-repeat: repeat-y;
   font-family: "DM Sans", sans-serif;
+}
+
+.title {
+  font-family: "Monstarize", sans-serif;
 }
 
 .landwolfbg {
@@ -166,7 +177,7 @@ body {
 
 
 .btn {
-  @apply py-4 px-8 rounded-lg min-w-36 text-center font-black;
+  @apply py-4 px-4 lg:px-8 rounded-lg min-w-36 text-center font-black;
 }
 .btn-primary {
   @apply bg-slime-500 text-gray-950;
@@ -202,11 +213,12 @@ body {
 }
 
 ul.roadmap {
-  @apply text-gray-200 list-disc space-y-1;
+  @apply text-gray-200 list-disc space-y-1 ml-4 leading-relaxed;
   li {
     @apply font-black;
 
     ol {
+      @apply ml-3;
       li {
         @apply font-normal py-0;
       }

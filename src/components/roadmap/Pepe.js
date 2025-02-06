@@ -1,13 +1,9 @@
 import React from 'react'
-import jointelegram from '../assets/jointelegram.png'
+import pepe from '../../assets/pepe.gif'
 
-import pepetext from '../assets/pepetext.png'
-import pepe from '../assets/pepe.gif'
-
-function Pepe() {
+const Pepe = () => {
     return (
-        <div className='flex lg:flex-row flex-col justify-center items-center pepebg px-4 py-5 lg:py-0'>
-
+        <div className='flex lg:flex-row flex-col-reverse justify-center pepebg px-4 py-5 lg:py-0'>
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
                 <img src={pepe} alt="pepe" className='w-12/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0'/>
             </div>
@@ -15,7 +11,8 @@ function Pepe() {
             <div
                 className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:pr-20 lg:pl-10">
                 <div className="border border-gray-200 rounded-lg px-10 py-4 bg-gray-200 bg-opacity-20 m-10 w-full">
-                    <img src={pepetext} alt="pepetext" className='w-80'/>
+                    <h1 className="title text-gray-200 text-3xl">Q3 - 2025</h1>
+
                     <ul className="roadmap">
                         <li>Utility Expansion & New Features</li>
                         <li>Begin Android/iOS app avenues</li>
