@@ -22,7 +22,7 @@ function Introducing() {
                     </h2>
 
                     <span className='flex flex-col text-lg text-white gap-4'>
-                        <p>Take control of your project's presence on Dex Screener with Mutant Booster. Whether you're aiming for higher rankings, more volume, or a stronger holder base, these tools deliver.</p>
+                        <p className='xl:pr-20'>Take control of your project's presence on Dex Screener with Mutant Booster. Whether you're aiming for higher rankings, more volume, or a stronger holder base, these tools deliver.</p>
                         <ul className="roadmap text-base font-thin">
                             <li><span className="text-slime-700 font-bold">Rank Booster</span> – Adjust maker/taker ratio for better market making</li>
                             <li><span className="text-slime-700 font-bold">Volume Booster</span> – Increase
