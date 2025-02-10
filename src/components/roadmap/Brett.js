@@ -5,7 +5,7 @@ const Brett = () => {
     return (
         <div className="flex flex-col lg:flex-row brettbg w-full items-center pb-4 lg:pb-0">
             <div className="order-1 lg:order-3 w-full lg:w-1/2 self-end">
-                <img src={brett} alt="brett" className='w-full'/>
+                <img src={brett} alt="brett" className='w-full lg:transform lg:scale-x-[-1]'/>
             </div>
 
             <div className="order-2 px-4 lg:px-12 py-0 lg:py-4 w-full lg:w-1/2 h-full">
