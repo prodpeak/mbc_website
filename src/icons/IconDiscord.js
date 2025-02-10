@@ -2,7 +2,6 @@ import React from 'react';
 
 export function IconDiscord(props) {
     let fill = props.fill ?? (props.dark ? '#1F420D' : '#60dd3c');
-    console.log(props.fill, fill);
     let size = props.size ?? 33;
 
     return (

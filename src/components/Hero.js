@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import heropic from '../assets/heropic.webp'
 import {IconDexScreener} from "../icons/IconDexScreener";
 import {IconTelegram} from "../icons/IconTelegram";
@@ -8,26 +8,30 @@ import {IconInstagram} from "../icons/IconInstagram";
 import {IconX} from "../icons/IconX";
 
 const CA = 'MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2';
-let status = '';
-
-const copyToClipboard = async (self) => {
-    try {
-        self.target.blur();
-        await navigator.clipboard.writeText(CA);
-        status = 'Copied';
-    } catch {
-        //
-    }
-};
 
 function Hero() {
+    const [status, setStatus] = useState('');
+
+    const copyToClipboard = async (self) => {
+        try {
+            await navigator.clipboard.writeText(CA);
+            setStatus('Copied to Clipboard');
+            setTimeout(() => {
+                setStatus('');
+                self.target.blur();
+            }, 2000);
+        } catch {
+            //
+        }
+    };
+
     return (
         <div className='flex flex-col justify-center items-center px-0 pt-16 pb-6'>
             <h1 className='text-center text-white text-4xl lg:text-6xl mb-5 mt-16 px-4'>Welcome to <br/>
                 <span className="font-black">Mutant Boys Club</span>
             </h1>
 
-            <span className="flex flex-row justify-center items-center px-0 pt-4 space-x-8 pb-6 lg:pb-0">
+            <span className="flex flex-row justify-center items-center px-0 pt-4 space-x-8 pb-12 lg:pb-0">
                 <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noopener noreferrer"><IconTelegram/></a>
                 <a href="https://discord.gg/mu4R7wSv" target="_blank" rel="noopener noreferrer"><IconDiscord/></a>
                 <a href="https://www.reddit.com/r/MBCcoin/" target="_blank" rel="noopener noreferrer"><IconReddit/></a>
@@ -42,11 +46,11 @@ function Hero() {
 
             <img src={heropic} alt="heropic" className='w-full rounded-xl mb-2'/>
 
-            <div>
-                <button onClick={copyToClipboard} className="btn btn-ca btn-dark text-gray-200 text-xl tracking-wide font-bold">
+            <div className="sm:w-full text-center">
+                <button onClick={copyToClipboard} className="p-4 sm:rounded-none md:rounded-lg sm:w-full md:w-auto btn-ca md:btn-dark bg-slime-700 text-black text-xs md:text-xl tracking-wide font-bold ">
                     MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2
                 </button>
-                <div className="text-gray-200">{status}</div>
+                <div className="text-gray-200 pt-2 text-sm italic">{status}&nbsp;</div>
             </div>
         </div>
     )
