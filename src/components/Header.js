@@ -19,7 +19,7 @@ function Header() {
                             <span className="btn btn-primary">Mutant Booster</span>
                         </a>
                         <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noopener noreferrer">
-                            <span className="btn btn-telegram flex flex-row items-center space-x-1">
+                            <span className="btn btn-telegram flex flex-row items-center space-x-2">
                                 <IconParkOutlineTelegram/> <span>Join Telegram</span>
                             </span>
                         </a>
