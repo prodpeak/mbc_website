@@ -31,7 +31,7 @@ function Hero() {
                 <span className="font-black">Mutant Boys Club</span>
             </h1>
 
-            <span className="flex flex-row justify-center items-center px-0 pt-4 space-x-8 pb-12 lg:pb-0">
+            <span className="flex flex-row justify-center items-center px-0 pt-4 space-x-5 md:space-x-8 pb-12 lg:pb-0">
                 <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noopener noreferrer"><IconTelegram/></a>
                 <a href="https://discord.gg/mu4R7wSv" target="_blank" rel="noopener noreferrer"><IconDiscord/></a>
                 <a href="https://www.reddit.com/r/MBCcoin/" target="_blank" rel="noopener noreferrer"><IconReddit/></a>
@@ -46,8 +46,8 @@ function Hero() {
 
             <img src={heropic} alt="heropic" className='w-full rounded-xl mb-2'/>
 
-            <div className="sm:w-full text-center">
-                <button onClick={copyToClipboard} className="p-4 sm:rounded-none md:rounded-lg sm:w-full md:w-auto btn-ca md:btn-dark bg-slime-700 text-black text-xs md:text-xl tracking-wide font-bold ">
+            <div className="w-full md:w-fit text-center">
+                <button onClick={copyToClipboard} className="p-4 sm:rounded-none md:rounded-lg w-full md:w-auto btn-dark bg-slime-700 text-black text-xs md:text-xl tracking-wide font-bold">
                     MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2
                 </button>
                 <div className="text-gray-200 pt-2 text-sm italic">{status}&nbsp;</div>

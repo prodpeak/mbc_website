@@ -10,7 +10,7 @@ const Waitlist = () => {
             </h2>
             <h1 className="title text-slime-black text-4xl lg:text-8xl my-5">Join the Whitelist</h1>
 
-            <div className='flex space-x-14'>
+            <div className='flex space-x-2 lg:space-x-14'>
                 <BuyAltButton/>
                 <JoinDiscordButton/>
             </div>

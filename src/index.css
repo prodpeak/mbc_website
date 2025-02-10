@@ -177,7 +177,7 @@ body {
 
 
 .btn {
-  @apply py-4 px-4 lg:px-8 rounded-lg min-w-36 text-center font-black;
+  @apply py-2 lg:py-4 px-4 lg:px-8 rounded-lg min-w-36 text-center font-black;
 }
 .btn-primary {
   @apply bg-slime-500 text-gray-950;
