@@ -200,6 +200,9 @@ body {
 .btn-dark {
   @apply bg-slime-black text-gray-200;
 }
+.btn-ca:focus {
+  @apply bg-slime-900;
+}
 .btn-secondary:hover {
   @apply border-slime-700;
 }

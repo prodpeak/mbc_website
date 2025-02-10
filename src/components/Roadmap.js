@@ -7,7 +7,7 @@ import Birddog from './roadmap/Birddog'
 
 const Roadmap = () => {
     return (
-        <div className='flex flex-col justify-center'>
+        <div>
             <Landwolf />
             <Brett />
             <Pepe />

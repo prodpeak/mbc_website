@@ -1,16 +1,15 @@
-import React from 'react'
-import landwolf from '../../assets/landwolf.gif'
+import React from 'react';
+import brett from '../../assets/landwolf.webp';
 
-function Landwolf() {
+const Landwolf = () => {
     return (
-        <div className='flex lg:flex-row flex-col-reverse justify-center landwolfbg px-4 lg:py-0'>
-
-            <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
-                <img src={landwolf} alt="landwolf" className='w-12/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0'/>
+        <div className="flex flex-col lg:flex-row landwolfbg w-full items-center pb-4 lg:pb-0">
+            <div className="order-1 lg:order-1 w-full lg:w-1/2 self-end">
+                <img src={brett} alt="brett" className='w-full'/>
             </div>
 
-            <div className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:mt-10 lg:pr-20">
-                <div className="border border-gray-200 rounded-lg px-6 py-4 bg-gray-200 bg-opacity-20 m-10 w-full">
+            <div className="order-2 px-4 lg:px-12 py-0 lg:py-4 w-full lg:w-1/2 h-full">
+                <div className="border border-gray-200 rounded-lg px-4 py-4 bg-gray-200 bg-opacity-20 w-full">
                     <h1 className="title text-gray-200 text-3xl">Q1 - 2025</h1>
 
                     <ul className="roadmap">

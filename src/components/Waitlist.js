@@ -1,6 +1,6 @@
 import React from 'react'
 import {BuyAltButton} from "../buttons/BuyAltButton";
-import {CAButton} from "../buttons/CAButton";
+import {JoinDiscordButton} from "../buttons/JoinDiscordButton";
 
 const Waitlist = () => {
     return (
@@ -10,9 +10,9 @@ const Waitlist = () => {
             </h2>
             <h1 className="title text-slime-black text-4xl lg:text-8xl my-5">Join the Whitelist</h1>
 
-            <div className='flex flex-col lg:flex-row justify-center items-center gap-4'>
+            <div className='flex space-x-14'>
                 <BuyAltButton/>
-                <CAButton/>
+                <JoinDiscordButton/>
             </div>
         </div>
     )
