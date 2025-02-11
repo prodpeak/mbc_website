@@ -42,7 +42,7 @@ function Introducing() {
             </div>
 
 
-            <div className="booster hidden lg:flex justify-center items-center m-20 w-full mt-48">
+            <div className="booster lg:flex justify-center items-center p-4 lg:p-0 lg:m-20 w-full mt-4 lg:mt-48">
                 <Mutantboosterpart/>
             </div>
 

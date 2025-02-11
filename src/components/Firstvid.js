@@ -58,7 +58,7 @@ function Firstvid() {
                 <div className="row2 flex flex-row justify-center items-center ">
                     <div
                         className='flex flex-col justify-center items-center relative w-1/2 lg:w-1/4 lg:m-5 m-2 lg:rounded-[50px] rounded-xl lg:border-2 border-[1px] border-white'>
-                        <p className='text-white text-center text-sm lg:text-2xl  absolute'>Pyrate</p>
+                        <p className='text-white text-center text-2xl absolute'>Pyrate</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0'/>
                     </div>
                     <img src={pyrate2} alt="pyrate2"
@@ -72,7 +72,7 @@ function Firstvid() {
                 <div className="row2 flex flex-row justify-center items-center ">
                     <div
                         className='flex flex-col justify-center items-center relative w-1/2 lg:w-1/4 lg:m-5 m-2 lg:rounded-[50px] rounded-xl lg:border-2 border-[1px] border-white'>
-                        <p className='text-white text-center text-sm lg:text-2xl  absolute'>GME</p>
+                        <p className='text-white text-center text-2xl  absolute'>GME</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0'/>
                     </div>
                     <video
@@ -110,7 +110,7 @@ function Firstvid() {
                 <div className="row2 flex flex-row justify-center items-center ">
                     <div
                         className='flex flex-col justify-center items-center relative w-1/2 lg:w-1/4 lg:m-5 m-2 lg:rounded-[50px] rounded-xl lg:border-2 border-[1px] border-white'>
-                        <p className='text-white text-center text-sm lg:text-2xl  absolute'>HODI</p>
+                        <p className='text-white text-center text-2xl  absolute'>HODI</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0'/>
                     </div>
                     <video
@@ -140,7 +140,7 @@ function Firstvid() {
                 <div className="row2 flex flex-row justify-center items-center ">
                     <div
                         className='flex flex-col justify-center items-center relative w-1/2 lg:w-1/4 lg:m-5 m-2 lg:rounded-[50px] rounded-xl lg:border-2 border-[1px] border-white'>
-                        <p className='text-white text-center text-sm lg:text-2xl  absolute'>KOLT</p>
+                        <p className='text-white text-center text-2xl absolute'>KOLT</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0'/>
                     </div>
                     <img src={kolt1} alt="kolt1" className='w-1/2 lg:w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'/>

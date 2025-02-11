@@ -35,18 +35,18 @@ function Mutantboosterpart() {
 
     return (
         <div className='flex flex-row justify-center items-center text-white border-2s px-1'>
-            <div className="mr-2 vertical-leftside relative h-40 lg:h-96 w-2 rounded-full bg-slime-950/20">
+            <div className="hidden lg:block r-2 vertical-leftside relative h-40 lg:h-96 w-2 rounded-full bg-slime-950/20">
                 <div
                     className="absolute rounded-full w-full bg-slime-700 transition-all duration-300 ease-in-out lg:h-20 h-10"
                     style={{ bottom: `${100 - progress}%` }}
                 ></div>
             </div>
 
-            <div className="middleside lg:w-[70%] w-[80%] pr-3 px-20">
-                <img src={selectedImage} alt="mutant" className=' dw-10/12' />
+            <div className="middleside w-full lg:w-[70%] pr-0 lg:pr-3 px-0 lg:px-20">
+                <img src={selectedImage} alt="mutant" className='dw-10/12' />
             </div>
 
-            <div className="rightside flex flex-col justify-start items-start gap-8 pl-12 mb-28 text-gray-500">
+            <div className="rightside hidden lg:flex flex-col justify-start items-start gap-8 pl-12 mb-28 text-gray-500">
                 <div onClick={() => handlePartClick(mutant1)}
                      className={getClassName(mutant1)}
                 >Login</div>
